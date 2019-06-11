@@ -1,4 +1,4 @@
-fp = ("close") 
+fp = open('C:\Users\bahri\Desktop.txt') 
 lines = fp.read().split("\n") 
 
 print("Eger listeyi gormek istiyorsan 1'i, kitap eklemk istiyorsan 2'yi , kitabi isim ile armak istiyorsan 3'u sec,kitabi yazar ismi ile armak istiyorsan 4'u sec,kitabi basim tarihi ile armak istiyorsan 5'u sec ")
